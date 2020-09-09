@@ -1,5 +1,5 @@
 # 3dScannerController
-A web application written to control raspberry pi camera module using iot
+The main controller module to control the cluster of raspberry pi camera modules.
 
 Go to the root folder controller
 
