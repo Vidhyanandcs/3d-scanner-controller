@@ -34,7 +34,7 @@ app.get('/test', (req,res) => {
 
         res.render('final', {
             cam01:`cam01: ${response1.data}`,
-            cam02:`cam01: ${response2.data}`
+            cam02:`cam02: ${response2.data}`
         })
         
         
