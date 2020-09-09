@@ -8,6 +8,7 @@ Go to the root folder controller
 Initiate NPM packages
 
     sudo npm init 
+    sudo npm install --save
 
 Creating a server
 
