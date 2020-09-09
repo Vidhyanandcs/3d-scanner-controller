@@ -3,6 +3,8 @@ A web application written to control raspberry pi camera module using iot
 
 Go to the root folder controller
 
+    cd 3dScannerController/controller
+
 Initiate NPM packages
 
     sudo npm init 
