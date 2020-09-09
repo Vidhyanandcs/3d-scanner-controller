@@ -13,7 +13,7 @@ Creating a server
 
 Accessing UI
 
-    Go to browser and type in address bar 
+Go to browser and type in address bar 
 
     localhost:3000
 
