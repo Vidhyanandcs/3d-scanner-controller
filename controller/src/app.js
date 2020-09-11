@@ -28,7 +28,9 @@ app.get('/test', (req,res) => {
 
         axios.get("http://192.168.43.100:3000/test"), 
         
-        axios.get("http://192.168.43.102:3000/test") 
+        axios.get("http://192.168.43.102:3000/test"),
+
+        axios.get("http://192.168.43.101:3000/pattern")
 
     ]).then(axios.spread((response1, response2) => {
 
