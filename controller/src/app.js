@@ -572,7 +572,7 @@ app.get('/shoot', (req,res) => {
             cam18:`cam18: ${response18.statusText}`,
             cam19:`cam19: ${response19.statusText}`,
             cam20:`cam20: ${response20.statusText}`,
-            cam21:`cam021: ${response21.statusText}`,
+            cam21:`cam21: ${response21.statusText}`,
             cam22:`cam22: ${response22.statusText}`,
             cam23:`cam23: ${response23.statusText}`,
             cam24:`cam24: ${response24.statusText}`,
