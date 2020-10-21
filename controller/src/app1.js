@@ -25,7 +25,7 @@ app.get('/shoot', (req,res) => {
 
     Promise.all([
 
-        fetch("http://192.168.43.102:3000/capture",{
+        axios.get("http://192.168.43.102:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -43,7 +43,7 @@ app.get('/shoot', (req,res) => {
         }),
 
 
-        fetch("http://192.168.43.103:3000/capture",{
+        axios.get("http://192.168.43.103:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -60,7 +60,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam103')
         }),
 
-        fetch("http://192.168.43.104:3000/capture",{
+        axios.get("http://192.168.43.104:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -77,7 +77,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam104')
         }),
 
-        fetch("http://192.168.43.105:3000/capture",{
+        axios.get("http://192.168.43.105:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -94,7 +94,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam105')
         }),
 
-        fetch("http://192.168.43.106:3000/capture",{
+        axios.get("http://192.168.43.106:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -111,7 +111,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam106')
         }),
 
-        fetch("http://192.168.43.107:3000/capture",{
+        axios.get("http://192.168.43.107:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -128,7 +128,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam107')
         }),
 
-        fetch("http://192.168.43.108:3000/capture",{
+        axios.get("http://192.168.43.108:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -145,7 +145,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam108')
         }),
 
-        fetch("http://192.168.43.109:3000/capture",{
+        axios.get("http://192.168.43.109:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -162,7 +162,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam109')
         }),
 
-        fetch("http://192.168.43.110:3000/capture",{
+        axios.get("http://192.168.43.110:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -179,7 +179,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam110')
         }),
 
-        fetch("http://192.168.43.111:3000/capture",{
+        axios.get("http://192.168.43.111:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -196,7 +196,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam111')
         }),
 
-        fetch("http://192.168.43.112:3000/capture",{
+        axios.get("http://192.168.43.112:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -213,7 +213,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam112')
         }),
 
-        fetch("http://192.168.43.113:3000/capture",{
+        axios.get("http://192.168.43.113:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -230,7 +230,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam113')
         }),
 
-        fetch("http://192.168.43.114:3000/capture",{
+        axios.get("http://192.168.43.114:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -247,7 +247,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam114')
         }),
 
-        fetch("http://192.168.43.115:3000/capture",{
+        axios.get("http://192.168.43.115:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -264,7 +264,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam115')
         }),
 
-        fetch("http://192.168.43.116:3000/capture",{
+        axios.get("http://192.168.43.116:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -281,7 +281,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam116')
         }),
 
-        fetch("http://192.168.43.117:3000/capture",{
+        axios.get("http://192.168.43.117:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -298,7 +298,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam117')
         }),
 
-        fetch("http://192.168.43.118:3000/capture",{
+        axios.get("http://192.168.43.118:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -315,7 +315,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam118')
         }),
 
-        fetch("http://192.168.43.119:3000/capture",{
+        axios.get("http://192.168.43.119:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -332,7 +332,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam119')
         }),
 
-        fetch("http://192.168.43.120:3000/capture",{
+        axios.get("http://192.168.43.120:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -349,7 +349,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam120')
         }),
 
-        fetch("http://192.168.43.121:3000/capture",{
+        axios.get("http://192.168.43.121:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -366,7 +366,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam121')
         }),
 
-        fetch("http://192.168.43.122:3000/capture",{
+        axios.get("http://192.168.43.122:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -383,7 +383,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam122')
         }),
 
-        fetch("http://192.168.43.123:3000/capture",{
+        axios.get("http://192.168.43.123:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -400,7 +400,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam123')
         }),
 
-        fetch("http://192.168.43.124:3000/capture",{
+        axios.get("http://192.168.43.124:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -417,7 +417,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam124')
         }),
 
-        fetch("http://192.168.43.125:3000/capture",{
+        axios.get("http://192.168.43.125:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -434,7 +434,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam125')
         }),
 
-        fetch("http://192.168.43.124:3000/capture",{
+        axios.get("http://192.168.43.124:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -451,7 +451,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam124')
         }),
 
-        fetch("http://192.168.43.125:3000/capture",{
+        axios.get("http://192.168.43.125:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -468,7 +468,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam125')
         }),
 
-        fetch("http://192.168.43.126:3000/capture",{
+        axios.get("http://192.168.43.126:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -485,7 +485,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam126')
         }),
 
-        fetch("http://192.168.43.127:3000/capture",{
+        axios.get("http://192.168.43.127:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -502,7 +502,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam127')
         }),
 
-        fetch("http://192.168.43.128:3000/capture",{
+        axios.get("http://192.168.43.128:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -519,7 +519,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam128')
         }),
 
-        fetch("http://192.168.43.129:3000/capture",{
+        axios.get("http://192.168.43.129:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -536,7 +536,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam129')
         }),
 
-        fetch("http://192.168.43.130:3000/capture",{
+        axios.get("http://192.168.43.130:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -553,7 +553,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam130')
         }),
 
-        fetch("http://192.168.43.131:3000/capture",{
+        axios.get("http://192.168.43.131:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -570,7 +570,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam131')
         }),
 
-        fetch("http://192.168.43.132:3000/capture",{
+        axios.get("http://192.168.43.132:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -587,7 +587,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam132')
         }),
 
-        fetch("http://192.168.43.132:3000/capture",{
+        axios.get("http://192.168.43.132:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -604,7 +604,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam132')
         }),
 
-        fetch("http://192.168.43.133:3000/capture",{
+        axios.get("http://192.168.43.133:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -621,7 +621,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam133')
         }),
 
-        fetch("http://192.168.43.134:3000/capture",{
+        axios.get("http://192.168.43.134:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -638,7 +638,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam134')
         }),
 
-        fetch("http://192.168.43.135:3000/capture",{
+        axios.get("http://192.168.43.135:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -655,7 +655,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam135')
         }),
 
-        fetch("http://192.168.43.136:3000/capture",{
+        axios.get("http://192.168.43.136:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -672,7 +672,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam136')
         }),
 
-        fetch("http://192.168.43.137:3000/capture",{
+        axios.get("http://192.168.43.137:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -689,7 +689,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam137')
         }),
 
-        fetch("http://192.168.43.138:3000/capture",{
+        axios.get("http://192.168.43.138:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -706,7 +706,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam138')
         }),
 
-        fetch("http://192.168.43.139:3000/capture",{
+        axios.get("http://192.168.43.139:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -723,7 +723,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam139')
         }),
 
-        fetch("http://192.168.43.140:3000/capture",{
+        axios.get("http://192.168.43.140:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -740,7 +740,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam140')
         }),
 
-        fetch("http://192.168.43.141:3000/capture",{
+        axios.get("http://192.168.43.141:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -757,7 +757,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam141')
         }),
 
-        fetch("http://192.168.43.142:3000/capture",{
+        axios.get("http://192.168.43.142:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -774,7 +774,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam142')
         }),
 
-        fetch("http://192.168.43.143:3000/capture",{
+        axios.get("http://192.168.43.143:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -791,7 +791,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam143')
         }),
 
-        fetch("http://192.168.43.144:3000/capture",{
+        axios.get("http://192.168.43.144:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -808,7 +808,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam144')
         }),
 
-        fetch("http://192.168.43.145:3000/capture",{
+        axios.get("http://192.168.43.145:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -825,7 +825,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam145')
         }),
 
-        fetch("http://192.168.43.146:3000/capture",{
+        axios.get("http://192.168.43.146:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -842,7 +842,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam146')
         }),
 
-        fetch("http://192.168.43.147:3000/capture",{
+        axios.get("http://192.168.43.147:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -859,7 +859,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam147')
         }),
 
-        fetch("http://192.168.43.148:3000/capture",{
+        axios.get("http://192.168.43.148:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -876,7 +876,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam148')
         }),
 
-        fetch("http://192.168.43.149:3000/capture",{
+        axios.get("http://192.168.43.149:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -893,7 +893,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam149')
         }),
 
-        fetch("http://192.168.43.150:3000/capture",{
+        axios.get("http://192.168.43.150:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -910,7 +910,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam150')
         }),
 
-        fetch("http://192.168.43.151:3000/capture",{
+        axios.get("http://192.168.43.151:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -927,7 +927,7 @@ app.get('/shoot', (req,res) => {
             console.log('Error in cam151')
         }),
 
-        fetch("http://192.168.43.152:3000/capture",{
+        axios.get("http://192.168.43.152:3000/capture",{
 
             headers: {
             Accept: 'application/zip',
@@ -957,3 +957,7 @@ app.get('/shoot', (req,res) => {
             console.log(err);
         });
 }) 
+
+app.listen(3000, () => {
+    console.log('server is up and running in port 3000')
+})
