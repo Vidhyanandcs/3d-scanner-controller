@@ -1,0 +1,19 @@
+{
+  "name": "3d-scanner-controller",
+  "version": "1.0.0",
+  "description": "The main controller module to control the cluster of raspberry pi camera modules.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vidhyanandcs/3d-scanner-controller.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vidhyanandcs/3d-scanner-controller/issues"
+  },
+  "homepage": "https://github.com/Vidhyanandcs/3d-scanner-controller#readme"
+}

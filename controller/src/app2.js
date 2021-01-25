@@ -227,7 +227,7 @@ app.get('', (req,res) => {
 
         }).catch((error) => {
 
-            console.log('Error in cam113')
+            console.log('Error in cam 113')
         }),
 
         axios.get("http://192.168.43.114:3000/capture",{
@@ -261,7 +261,7 @@ app.get('', (req,res) => {
 
         }).catch((error) => {
 
-            console.log('Error in cam115')
+            console.log(error)
         }),
 
         axios.get("http://192.168.43.116:3000/capture",{
@@ -278,7 +278,7 @@ app.get('', (req,res) => {
 
         }).catch((error) => {
 
-            console.log('Error in cam116')
+            console.log(error)
         }),
 
         axios.get("http://192.168.43.117:3000/capture",{
@@ -295,7 +295,7 @@ app.get('', (req,res) => {
 
         }).catch((error) => {
 
-            console.log('Error in cam117')
+            console.log(error)
         }),
 
         axios.get("http://192.168.43.118:3000/capture",{
@@ -434,40 +434,7 @@ app.get('', (req,res) => {
             console.log('Error in cam125')
         }),
 
-        axios.get("http://192.168.43.124:3000/capture",{
-
-            headers: {
-            Accept: 'application/zip',
-            },
-            responseType: 'arraybuffer',
-
-        }) .then((response24) => {
-
-            fs.writeFileSync(`./img/cam24${now}.zip`,response24.data)
-
-
-        }).catch((error) => {
-
-            console.log('Error in cam124')
-        }),
-
-        axios.get("http://192.168.43.125:3000/capture",{
-
-            headers: {
-            Accept: 'application/zip',
-            },
-            responseType: 'arraybuffer',
-
-        }) .then((response25) => {
-
-            fs.writeFileSync(`./img/cam25${now}.zip`,response25.data)
-
-
-        }).catch((error) => {
-
-            console.log('Error in cam125')
-        }),
-
+        
         axios.get("http://192.168.43.126:3000/capture",{
 
             headers: {
@@ -570,23 +537,7 @@ app.get('', (req,res) => {
             console.log('Error in cam131')
         }),
 
-        axios.get("http://192.168.43.132:3000/capture",{
-
-            headers: {
-            Accept: 'application/zip',
-            },
-            responseType: 'arraybuffer',
-
-        }) .then((response32) => {
-
-            fs.writeFileSync(`./img/cam32${now}.zip`,response32.data)
-
-
-        }).catch((error) => {
-
-            console.log('Error in cam132')
-        }),
-
+       
         axios.get("http://192.168.43.132:3000/capture",{
 
             headers: {
@@ -737,7 +688,7 @@ app.get('', (req,res) => {
 
         }).catch((error) => {
 
-            console.log('Error in cam140')
+            console.log(error)
         }),
 
         axios.get("http://192.168.43.141:3000/capture",{
@@ -1029,52 +980,9 @@ app.get('', (req,res) => {
             console.log('Error in cam157')
         }),
 
-        axios.get("http://192.168.43.158:3000/capture",{
+        
 
-            headers: {
-            Accept: 'application/zip',
-            },
-            responseType: 'arraybuffer',
-
-        }) .then((response58) => {
-
-            fs.writeFileSync(`./img/cam58${now}.zip`,response58.data)
-
-
-        }).catch((error) => {
-
-            console.log('Error in cam158')
-        }),
-
-        axios.get("http://192.168.43.159:3000/capture",{
-
-            headers: {
-            Accept: 'application/zip',
-            },
-            responseType: 'arraybuffer',
-
-        }) .then((response59) => {
-
-            fs.writeFileSync(`./img/cam59${now}.zip`,response59.data)
-
-
-        }).catch((error) => {
-
-            console.log('Error in cam159')
-        })
-
-    ]) .then(() => {
-
-        res.render('final', {
-            cam01:`Result: All images received. Please Check the img folder.`    
-        })
-
-    }).catch((err) => {
-
-         console.log(err);
-
-    })
-
+    ]) 
 
 app.listen(3000, () => {
     console.log('server is up and running in port 3000')
