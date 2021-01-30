@@ -3,7 +3,7 @@ const path = require('path')
 const express = require('express')
 const axios = require('axios')
 const hbs = require('hbs')
-const camNum = Number(119)
+const camNum = Number(99)
 
 const app = express()
 const publicDirectoryPath = path.join(__dirname, '../public')
@@ -20,7 +20,7 @@ app.get('', (req,res) => {
     //For timestamp
     const date = new Date()
     const now = date.getTime()
-
+    const triggerTime = now + 5000
 
 
     Promise.all([
@@ -29,6 +29,9 @@ app.get('', (req,res) => {
 
             headers: {
             Accept: 'application/json',
+            },
+            params: {
+                time: triggerTime
             }
 
         }).then((response100) => {
